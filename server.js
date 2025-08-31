@@ -50,7 +50,7 @@ app.post("/send-email", async (req, res) => {
     const tasksText = tasks.map(task => `- ${task}`).join("\n");
 
     const text = `
-Daily Call Report - ${date}
+DSR REPORT - ${date}
 
 ${tasksText}
 
